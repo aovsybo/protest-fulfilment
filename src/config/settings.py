@@ -10,6 +10,8 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 DEBUG = True if os.environ.get("DEBUG") == "True" else False
 ALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS").split(',')
 
+FULFILMENT_API_LOGIN = os.environ.get("FULFILMENT_API_LOGIN")
+FULFILMENT_API_PASSWORD = os.environ.get("FULFILMENT_API_PASSWORD")
 
 INSTALLED_APPS = [
     'django.contrib.admin',
