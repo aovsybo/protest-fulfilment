@@ -1,0 +1,7 @@
+.idea/
+.env
+.venv/
+static/
+
+WebhookData.log
+__pycache__/
